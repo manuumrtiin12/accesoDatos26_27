@@ -1,0 +1,6 @@
+2026-09-24 08:40:00.999 [main] DEBUG repasoJava.pruebaLogs - Empiez el Main
+2026-09-24 08:40:01.001 [main] ERROR repasoJava.pruebaLogs - Ocurre Excepcion
+2026-09-24 08:42:19.950 [main] DEBUG repasoJava.pruebaLogs - Empieza el Main
+2026-09-24 08:42:19.952 [main] ERROR repasoJava.pruebaLogs - Ocurre Excepcion
+2026-09-24 09:15:54.802 [main] DEBUG AprendiendoLogs.pruebaLogs - Empieza el Main
+2026-09-24 09:15:54.804 [main] ERROR AprendiendoLogs.pruebaLogs - Ocurre Excepcion
