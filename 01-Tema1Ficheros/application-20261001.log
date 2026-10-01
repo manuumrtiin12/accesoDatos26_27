@@ -1,0 +1,10 @@
+2026-10-01 09:12:37.950 [main] ERROR EjemploFicheros_00.EjemploFicheros - Error al crear fichero: El sistema no puede encontrar la ruta especificada
+2026-10-01 09:13:27.894 [main] INFO  EjemploFicheros_00.EjemploFicheros - Fichero creado correctamente
+2026-10-01 09:17:20.887 [main] INFO  EjemploFicheros_00.EjemploFicheros - Fichero creado correctamente
+2026-10-01 09:21:27.045 [main] INFO  EjemploFicheros_00.EjemploFicheros - Fichero creado correctamente
+2026-10-01 09:21:46.109 [main] INFO  EjemploFicheros_00.EjemploFicheros - El fichero ya existía
+2026-10-01 09:45:09.605 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - La ruta es valida
+2026-10-01 09:48:01.021 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - Error: La ruta no existe
+2026-10-01 09:48:19.159 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - [F] log4j2.xml
+2026-10-01 09:48:19.162 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - Total de ficheros: 1
+2026-10-01 09:48:19.162 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - Total de directorios: 0
