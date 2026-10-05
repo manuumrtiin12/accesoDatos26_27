@@ -12,7 +12,7 @@ public class Ejercicio1 {
 	private static final org.apache.logging.log4j.Logger logger = LogManager.getLogger(Ejercicio1.class);
 
 
-	
+	 
 	public static void main(String[] args) {
 		
 		

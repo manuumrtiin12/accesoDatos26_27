@@ -1,0 +1,83 @@
+2026-10-05 08:17:59.477 [main] INFO  EjemploFicheros_00.EjemploFicheros - Nombre: resources
+2026-10-05 08:17:59.480 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 08:17:59.480 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta absoluta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 08:17:59.481 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta canónica: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 08:17:59.481 [main] INFO  EjemploFicheros_00.EjemploFicheros - Directorio padre: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main
+2026-10-05 08:17:59.481 [main] INFO  EjemploFicheros_00.EjemploFicheros - Tipo: directorio
+2026-10-05 08:17:59.481 [main] INFO  EjemploFicheros_00.EjemploFicheros - Lectura: true
+2026-10-05 08:17:59.482 [main] INFO  EjemploFicheros_00.EjemploFicheros - Escritura: true
+2026-10-05 08:17:59.482 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ejecución: true
+2026-10-05 08:17:59.482 [main] INFO  EjemploFicheros_00.EjemploFicheros - Oculto: false
+2026-10-05 08:17:59.482 [main] INFO  EjemploFicheros_00.EjemploFicheros - Tamaño en bytes: 0
+2026-10-05 08:17:59.482 [main] INFO  EjemploFicheros_00.EjemploFicheros - Número de elementos: 2
+2026-10-05 08:17:59.483 [main] INFO  EjemploFicheros_00.EjemploFicheros - Fecha de última modificación: 2026-10-05
+2026-10-05 10:25:32.620 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - [F] Ejercicio2Archivo.txt
+2026-10-05 10:25:32.622 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - [F] log4j2.xml
+2026-10-05 10:25:32.622 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - Total de ficheros: 2
+2026-10-05 10:25:32.622 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - Total de directorios: 0
+2026-10-05 10:25:44.139 [main] INFO  EjemploFicheros_00.EjemploFicheros - Nombre: resources
+2026-10-05 10:25:44.141 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:25:44.141 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta absoluta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:25:44.141 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta canónica: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:25:44.143 [main] INFO  EjemploFicheros_00.EjemploFicheros - Directorio padre: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main
+2026-10-05 10:25:44.143 [main] INFO  EjemploFicheros_00.EjemploFicheros - Tipo: directorio
+2026-10-05 10:25:44.143 [main] INFO  EjemploFicheros_00.EjemploFicheros - Lectura: true
+2026-10-05 10:25:44.143 [main] INFO  EjemploFicheros_00.EjemploFicheros - Escritura: true
+2026-10-05 10:25:44.143 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ejecución: true
+2026-10-05 10:25:44.143 [main] INFO  EjemploFicheros_00.EjemploFicheros - Oculto: false
+2026-10-05 10:25:44.143 [main] INFO  EjemploFicheros_00.EjemploFicheros - Tamaño en bytes: 0
+2026-10-05 10:25:44.144 [main] INFO  EjemploFicheros_00.EjemploFicheros - Número de elementos: 2
+2026-10-05 10:25:44.146 [main] INFO  EjemploFicheros_00.EjemploFicheros - Fecha de última modificación: 2026-10-05
+2026-10-05 10:36:02.692 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - [F] Ejercicio2Archivo.txt
+2026-10-05 10:36:02.694 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - [F] log4j2.xml
+2026-10-05 10:36:02.694 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - Total de ficheros: 2
+2026-10-05 10:36:02.694 [main] DEBUG Boletin1Ficheros_01.Ejercicio1 - Total de directorios: 0
+2026-10-05 10:36:10.780 [main] INFO  EjemploFicheros_00.EjemploFicheros - Nombre: resources
+2026-10-05 10:36:10.782 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:36:10.782 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta absoluta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:36:10.782 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta canónica: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:36:10.783 [main] INFO  EjemploFicheros_00.EjemploFicheros - Directorio padre: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main
+2026-10-05 10:36:10.783 [main] INFO  EjemploFicheros_00.EjemploFicheros - Tipo: directorio
+2026-10-05 10:36:10.783 [main] INFO  EjemploFicheros_00.EjemploFicheros - Lectura: true
+2026-10-05 10:36:10.783 [main] INFO  EjemploFicheros_00.EjemploFicheros - Escritura: true
+2026-10-05 10:36:10.783 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ejecución: true
+2026-10-05 10:36:10.783 [main] INFO  EjemploFicheros_00.EjemploFicheros - Oculto: false
+2026-10-05 10:36:10.784 [main] INFO  EjemploFicheros_00.EjemploFicheros - Tamaño en bytes: 0
+2026-10-05 10:36:10.784 [main] INFO  EjemploFicheros_00.EjemploFicheros - Número de elementos: 2
+2026-10-05 10:36:10.784 [main] INFO  EjemploFicheros_00.EjemploFicheros - Fecha de última modificación: 2026-10-05
+2026-10-05 10:49:57.533 [main] INFO  EjemploFicheros_00.EjemploFicheros - Nombre: resources
+2026-10-05 10:49:57.534 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:49:57.535 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta absoluta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:49:57.535 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ruta canónica: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources
+2026-10-05 10:49:57.536 [main] INFO  EjemploFicheros_00.EjemploFicheros - Directorio padre: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main
+2026-10-05 10:49:57.536 [main] INFO  EjemploFicheros_00.EjemploFicheros - Tipo: directorio
+2026-10-05 10:49:57.536 [main] INFO  EjemploFicheros_00.EjemploFicheros - Lectura: true
+2026-10-05 10:49:57.536 [main] INFO  EjemploFicheros_00.EjemploFicheros - Escritura: true
+2026-10-05 10:49:57.536 [main] INFO  EjemploFicheros_00.EjemploFicheros - Ejecución: true
+2026-10-05 10:49:57.537 [main] INFO  EjemploFicheros_00.EjemploFicheros - Oculto: false
+2026-10-05 10:49:57.537 [main] INFO  EjemploFicheros_00.EjemploFicheros - Tamaño en bytes: 0
+2026-10-05 10:49:57.537 [main] INFO  EjemploFicheros_00.EjemploFicheros - Número de elementos: 2
+2026-10-05 10:49:57.538 [main] INFO  EjemploFicheros_00.EjemploFicheros - Fecha de última modificación: 2026-10-05
+2026-10-05 11:52:13.586 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - [Ljava.lang.String;@378542de
+2026-10-05 11:56:48.978 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - [Ljava.io.File;@378542de
+2026-10-05 11:59:02.144 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Es un archivo
+2026-10-05 12:00:12.386 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - [Ljava.lang.String;@378542de
+2026-10-05 12:00:24.945 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - [Ljava.io.File;@378542de
+2026-10-05 12:00:39.158 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - class [Ljava.io.File;
+2026-10-05 12:01:36.408 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - [Ljava.io.File;@378542de
+2026-10-05 12:30:02.328 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: 
+2026-10-05 12:30:02.329 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: 
+2026-10-05 12:30:02.331 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: 
+2026-10-05 12:30:02.331 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: 
+2026-10-05 12:30:44.164 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: 
+2026-10-05 12:30:44.165 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: 
+2026-10-05 12:30:44.165 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: 
+2026-10-05 12:30:44.165 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: 
+2026-10-05 12:35:57.978 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: 
+2026-10-05 12:35:57.979 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: 
+2026-10-05 12:35:57.979 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: 
+2026-10-05 12:35:57.979 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: 
+2026-10-05 12:36:23.093 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: Ejercicio2Archivo.txt
+2026-10-05 12:36:23.094 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources\Boletin1Ficheros_01_Archivos\Ejercicio2Archivo.txt
+2026-10-05 12:36:23.094 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: log4j2.xml
+2026-10-05 12:36:23.096 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources\log4j2.xml

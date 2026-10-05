@@ -1,51 +1,57 @@
-package Boletin1Ficheros_01;
+/*package Boletin1Ficheros_01;
 
 import java.io.File;
 import java.io.IOException;
-import java.sql.Date;
+import java.util.Date;
 import java.util.Scanner;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Ejercicio2 {
 
-	
-	public static void main(String[] args) throws RutaNoValidaException, IOException {
-		
-	
-	
-	Scanner sc = new Scanner(System.in);
-	System.out.println("Dime la ruta a la que quieres acceder: ");
-	String ruta = sc.nextLine();
-	
-	File archivo = new File(ruta);
-	
-	if(!archivo.exists()) {
-		
-		throw new RutaNoValidaException("La ruta no existe"); 
-	}
-	
-	else {
-		
-		System.out.println("Nombre: " + archivo.getName());
-		System.out.println("Ruta: " + archivo.getPath());
-		System.out.println("Ruta absoluta: " + archivo.getAbsolutePath());
-		System.out.println("Ruta canónica: " + archivo.getCanonicalPath());
-		System.out.println("Directorio padre: " + archivo.getParent());
-		System.out.println("Tipo: " + (archivo.isFile() ? "fichero" : "directorio"));
-		System.out.println("Lectura: " + archivo.canRead());
-		System.out.println("Escritura: " + archivo.canWrite());
-		System.out.println("Ejecución: " + archivo.canExecute());
-		System.out.println("Oculto: " + archivo.isHidden());
-		System.out.println("Tamaño en bytes: " + archivo.length());
-		System.out.println("Número de elementos: " + (archivo.isDirectory() ? archivo.list().length : "no es un directorio"));
-		System.out.println("Fecha de última modificación: " + new Date(archivo.lastModified()));
+    private static final Logger logger = LogManager.getLogger(Ejercicio2.class);
 
-	}
-	
-	}
-	
-static class RutaNoValidaException extends Exception {
-	public RutaNoValidaException(String mensaje) {
-	        super(mensaje);
-	    }
-	}
+    public static void main(String[] args) throws RutaNoValidaException, IOException {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Dime la ruta a la que quieres acceder: ");
+        String ruta = sc.nextLine();
+
+        File archivo = new File(ruta);
+
+        if (!archivo.exists()) {
+
+            throw new RutaNoValidaException("La ruta no existe");
+
+        } else {
+
+            logger.info("Nombre: " + archivo.getName());
+            logger.info("Ruta: " + archivo.getPath());
+            logger.info("Ruta absoluta: " + archivo.getAbsolutePath());
+            logger.info("Ruta canónica: " + archivo.getCanonicalPath());
+            logger.info("Directorio padre: " + archivo.getParent());
+            logger.info("Tipo: " + (archivo.isFile() ? "fichero" : "directorio"));
+            logger.info("Lectura: " + archivo.canRead());
+            logger.info("Escritura: " + archivo.canWrite());
+            logger.info("Ejecución: " + archivo.canExecute());
+            logger.info("Oculto: " + archivo.isHidden());
+            logger.info("Tamaño en bytes: " + archivo.length());
+
+            logger.info("Número de elementos: "
+                    + (archivo.isDirectory() ? archivo.list().length : "no es un directorio"));
+
+            logger.info("Fecha de última modificación: "
+                    + new Date(archivo.lastModified()));
+        }
+    }
 }
+
+class RutaNoValidaException extends Exception {
+
+    public RutaNoValidaException(String mensaje) {
+        super(mensaje);
+    }
+}
+*/
