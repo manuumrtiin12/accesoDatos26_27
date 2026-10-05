@@ -81,3 +81,22 @@
 2026-10-05 12:36:23.094 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources\Boletin1Ficheros_01_Archivos\Ejercicio2Archivo.txt
 2026-10-05 12:36:23.094 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Nombre: log4j2.xml
 2026-10-05 12:36:23.096 [main] INFO  Boletin1Ficheros_01.Ejercicio4 - Ruta: C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\resources\log4j2.xml
+2026-10-05 20:15:32.900 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Directorio creado correctamente.
+2026-10-05 20:15:32.903 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt creado correctamente.
+2026-10-05 20:15:32.903 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero normal.txt creado correctamente.
+2026-10-05 20:15:32.903 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt marcado como solo lectura.
+2026-10-05 20:15:32.903 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Permisos de lectura.txt: lectura=true escritura=false
+2026-10-05 20:15:32.904 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Permisos de normal.txt: lectura=true escritura=true
+2026-10-05 20:15:32.904 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero renombrado a renombrado.txt correctamente.
+2026-10-05 20:15:32.904 [main] ERROR Boletin1Ficheros_01.Ejercicio3 - No se pudo borrar lectura.txt directamente.
+2026-10-05 20:15:32.905 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Marca de solo lectura quitada de lectura.txt.
+2026-10-05 20:15:32.905 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt borrado tras modificar permisos.
+2026-10-05 20:15:32.905 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero en directorio: renombrado.txt
+2026-10-05 20:26:44.986 [main] INFO  Boletin1Ficheros_01.Ejercicio5 - Calculando el tamaño recursivo de: C:\Users\mmanu\Desktop\DAM 2\accesoDatos\accesoDatos26_27
+2026-10-05 20:26:09.873 [main] INFO  Boletin1Ficheros_01.Ejercicio5 - Calculando el tamaño recursivo de: C:\Users\mmanu
+2026-10-05 20:27:56.176 [main] INFO  Boletin1Ficheros_01.Ejercicio5 - Calculando el tamaño recursivo de: C:\Users\mmanu\Desktop\DAM 2\accesoDatos\accesoDatos26_27\01-Tema1Ficheros\src\main\java
+2026-10-05 20:28:55.852 [main] INFO  Boletin1Ficheros_01.Ejercicio5 - Calculando el tamaño recursivo de: C:\Users\mmanu\Desktop\DAM 2\accesoDatos\accesoDatos26_27\01-Tema1Ficheros\src\main\java
+2026-10-05 20:28:55.855 [main] INFO  Boletin1Ficheros_01.Ejercicio5 - KB: 
+2026-10-05 20:28:55.855 [main] INFO  Boletin1Ficheros_01.Ejercicio5 - MB: 
+2026-10-05 20:31:21.192 [main] INFO  Boletin1Ficheros_01.Ejercicio5 - Calculando el tamaño recursivo de: C:\Users\mmanu\Desktop\DAM 2\accesoDatos\accesoDatos26_27\01-Tema1Ficheros\src\main\java
+2026-10-05 20:31:21.195 [main] INFO  Boletin1Ficheros_01.Ejercicio5 - KB: 10.37
