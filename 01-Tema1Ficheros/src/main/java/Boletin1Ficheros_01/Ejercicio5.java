@@ -16,7 +16,7 @@ public class Ejercicio5 {
         if (userHome.exists() && userHome.isDirectory()) {
             logger.info("Calculando el tamaño recursivo de: {}", userHome.getAbsolutePath());
             
-            long tamanoTotalBytes = calcularTamanoDirectorio(userHome);
+            double tamanoTotalBytes = calcularTamanoDirectorio(userHome);
             
             mostrarTamanoFormateado(tamanoTotalBytes);
         } else {
@@ -25,16 +25,19 @@ public class Ejercicio5 {
     }
 
   
-    public static long calcularTamanoDirectorio(File dir) {
-        long totalBytes = 0;
+    public static double calcularTamanoDirectorio(File dir) {
+        double totalBytes = 0;
+
         File[] archivos = dir.listFiles();
 
         if (archivos != null) {
-            for (File f : archivos) {
-                if (f.isFile()) {
-                    totalBytes += f.length();
-                } else if (f.isDirectory()) {
-                    totalBytes += calcularTamanoDirectorio(f);
+            for (File archivo : archivos) {
+
+                if (archivo.isFile()) {
+                    totalBytes += archivo.length();
+
+                } else if (archivo.isDirectory()) {
+                    totalBytes += calcularTamanoDirectorio(archivo);
                 }
             }
         }
@@ -43,7 +46,7 @@ public class Ejercicio5 {
     }
 
    
-    public static void mostrarTamanoFormateado(long bytes) {
+    public static void mostrarTamanoFormateado(double bytes) {
         double kb = bytes / 1024.0;
         double mb = kb / 1024.0;
 

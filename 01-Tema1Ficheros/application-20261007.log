@@ -1,0 +1,11 @@
+2026-10-07 14:05:27.814 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Directorio creado correctamente.
+2026-10-07 14:05:27.816 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt creado correctamente.
+2026-10-07 14:05:27.816 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero normal.txt creado correctamente.
+2026-10-07 14:05:27.816 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt marcado como solo lectura.
+2026-10-07 14:05:27.817 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Permisos de lectura.txt: lectura=true escritura=false
+2026-10-07 14:05:27.817 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Permisos de normal.txt: lectura=true escritura=true
+2026-10-07 14:05:27.817 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero renombrado a renombrado.txt correctamente.
+2026-10-07 14:05:27.817 [main] ERROR Boletin1Ficheros_01.Ejercicio3 - No se pudo borrar lectura.txt directamente.
+2026-10-07 14:05:27.819 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Marca de solo lectura quitada de lectura.txt.
+2026-10-07 14:05:27.819 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt borrado tras modificar permisos.
+2026-10-07 14:05:27.819 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero en directorio: renombrado.txt

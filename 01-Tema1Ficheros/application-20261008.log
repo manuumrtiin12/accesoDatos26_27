@@ -1,0 +1,25 @@
+2026-10-08 08:33:13.324 [main] ERROR Boletin1Ficheros_01.Ejercicio3 - Error al crear el directorio o ya existia.
+2026-10-08 08:33:13.326 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt creado correctamente.
+2026-10-08 08:33:13.326 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero normal.txt creado correctamente.
+2026-10-08 08:33:13.326 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt marcado como solo lectura.
+2026-10-08 08:33:13.326 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Permisos de lectura.txt: lectura=true escritura=false
+2026-10-08 08:33:13.328 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Permisos de normal.txt: lectura=true escritura=true
+2026-10-08 08:33:13.328 [main] ERROR Boletin1Ficheros_01.Ejercicio3 - Error al renombrar el fichero normal.txt.
+2026-10-08 08:33:13.328 [main] ERROR Boletin1Ficheros_01.Ejercicio3 - No se pudo borrar lectura.txt directamente.
+2026-10-08 08:33:13.328 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Marca de solo lectura quitada de lectura.txt.
+2026-10-08 08:33:13.329 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero lectura.txt borrado tras modificar permisos.
+2026-10-08 08:33:13.329 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero en directorio: normal.txt
+2026-10-08 08:33:13.329 [main] INFO  Boletin1Ficheros_01.Ejercicio3 - Fichero en directorio: renombrado.txt
+2026-10-08 08:38:37.069 [main] ERROR Boletin1Ficheros_01.Ejercicio5 - El directorio no existe o no es válido.
+2026-10-08 09:01:23.117 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - [C:\Users\mmarf\Desktop\DAM2\psp\psp26_27\01-Unidad1\src\main\java\Boletin1\Ejercicio1.java]
+2026-10-08 09:06:36.940 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - []
+2026-10-08 09:07:00.635 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - [C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\Boletin1Ficheros_01\Ejercicio1.java, C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\EjemploFicheros_00\Ejercicio1.java]
+2026-10-08 09:13:04.598 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - []
+2026-10-08 09:17:56.248 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - []
+2026-10-08 09:19:31.453 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - []
+2026-10-08 09:20:10.084 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - []
+2026-10-08 09:20:55.378 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - [C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\Boletin1Ficheros_01\Ejercicio1.java]
+2026-10-08 09:21:08.690 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - [C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\Boletin1Ficheros_01\Ejercicio1.java]
+2026-10-08 09:22:25.871 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - [C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\Boletin1Ficheros_01\Ejercicio1.java]
+2026-10-08 09:22:55.566 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - [C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\Boletin1Ficheros_01\Ejercicio1.java, C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\EjemploFicheros_00\Ejercicio1.java]
+2026-10-08 09:23:26.892 [main] INFO  Boletin1Ficheros_01.Ejercicio7 - [C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\Boletin1Ficheros_01\Ejercicio1.java, C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\EjemploFicheros_00\Ejercicio1.java, C:\Users\mmarf\Desktop\DAM2\acceso_datos\accesoDatos26_27\01-Tema1Ficheros\src\main\java\Ejercicio1.java]
