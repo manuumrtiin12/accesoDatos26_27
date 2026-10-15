@@ -11,7 +11,7 @@ public class Ejercicio5 {
     private static final Logger logger = LogManager.getLogger(Ejercicio5.class);
 
     public static void main(String[] args) {
-        File userHome = new File("C:\\Users\\mmanu\\Desktop\\DAM 2\\accesoDatos\\accesoDatos26_27\\01-Tema1Ficheros\\src\\main\\java");
+        File userHome = new File("C:\\Users\\mmarf\\Desktop\\DAM2\\acceso_datos\\accesoDatos26_27\\01-Tema1Ficheros\\src\\main\\java\\Boletin1Ficheros_01");
 
         if (userHome.exists() && userHome.isDirectory()) {
             logger.info("Calculando el tamaño recursivo de: {}", userHome.getAbsolutePath());
