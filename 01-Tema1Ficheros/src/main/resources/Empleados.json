@@ -1,0 +1,14 @@
+[
+  {
+    "identificador": "empleado21",
+    "nombreApellido": "Miguel Ramirez",
+    "edad": 34,
+    "empresa": "Su Empresa"
+  },
+  {
+    "identificador": "empleado22",
+    "nombreApellido": "María López",
+    "edad": 28,
+    "empresa": "Otra Empresa"
+  }
+]
