@@ -1,0 +1,9 @@
+2026-11-04 21:45:35.601 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Repositorio.RepositorioPersonaTxt - Ya tienes a todas las personas
+2026-11-04 21:45:35.603 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Repositorio.RepositorioPersonaTxt - Ya tienes a todas las personas
+2026-11-04 21:48:45.606 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Controlador.main - null
+2026-11-04 21:48:45.615 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Controlador.main - 1
+2026-11-04 21:48:45.615 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Controlador.main - [Persona [nombre=Pepe, notas=[1.0, 3.5, 7.7]]]
+2026-11-04 21:48:45.616 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Repositorio.RepositorioPersonaTxt - Ya tienes a todas las personas
+2026-11-04 21:48:45.616 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Controlador.main - true
+2026-11-04 21:48:45.616 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Repositorio.RepositorioPersonaTxt - Ya tienes a todas las personas
+2026-11-04 21:48:45.616 [main] INFO  EjemploFicheros_00.EjemploArquitectura.Controlador.main - false
