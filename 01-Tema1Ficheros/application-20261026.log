@@ -1,0 +1,25 @@
+2026-10-26 11:53:49.392 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - [Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa], Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]]
+2026-10-26 11:55:26.656 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 11:55:26.658 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]
+2026-10-26 12:00:22.920 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 12:00:22.922 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]
+2026-10-26 12:01:27.651 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - EjemploFicheros_00.EjemploGson.Empleado@6d4d66d2
+2026-10-26 12:01:27.653 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - EjemploFicheros_00.EjemploGson.Empleado@25ce9dc4
+2026-10-26 12:01:53.633 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]Esto se merece un positivo
+2026-10-26 12:01:53.636 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]Esto se merece un positivo
+2026-10-26 12:02:08.600 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]Esto se merece un positivo
+2026-10-26 12:02:08.601 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]Esto se merece un positivo
+2026-10-26 12:03:05.623 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 12:03:05.625 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]
+2026-10-26 12:03:29.280 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 12:03:29.282 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]
+2026-10-26 12:03:44.292 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 12:03:44.294 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]
+2026-10-26 12:07:08.744 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 12:07:08.746 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]
+2026-10-26 12:10:55.942 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 12:10:55.944 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]
+2026-10-26 12:18:22.138 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 12:18:22.140 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]
+2026-10-26 12:18:56.591 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado21, nombreApellido=Miguel Ramirez, edad=34, empresa=Su Empresa]
+2026-10-26 12:18:56.593 [main] DEBUG EjemploFicheros_00.EjemploGson.Empleado - Empleado [identificador=empleado22, nombreApellido=María López, edad=28, empresa=Otra Empresa]

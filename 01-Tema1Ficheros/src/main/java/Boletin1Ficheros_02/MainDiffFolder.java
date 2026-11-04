@@ -3,7 +3,13 @@ package Boletin1Ficheros_02;
 
 import java.util.Collection;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class MainDiffFolder {
+	
+    private static final Logger logger = LogManager.getLogger(MainDiffFolder.class);
+
 
     public static void main(String[] args) {
 
@@ -15,11 +21,11 @@ public class MainDiffFolder {
             Collection<ResultadoComparacion> resultados = comparador.comparame();
 
             for (ResultadoComparacion resultado : resultados) {
-                System.out.println(resultado);
+                logger.info(resultado);
             }
 
         } catch (DiffFolderException e) {
-            System.out.println(e.getMessage());
+        	logger.info(e.getMessage());
         }
     }
 }
