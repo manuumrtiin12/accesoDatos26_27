@@ -16,7 +16,7 @@ public interface IRepositorioPersona {
    
    int count() throws RepositorioException;
    
-   void save(Persona persona) throws RepositorioException      
+   //void save(Persona persona) throws RepositorioException      
    
    // alta o modificación Escribe fichero
    
