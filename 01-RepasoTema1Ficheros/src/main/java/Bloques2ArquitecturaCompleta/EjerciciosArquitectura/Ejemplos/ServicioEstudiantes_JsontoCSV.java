@@ -1,5 +1,6 @@
 package Bloques2ArquitecturaCompleta.EjerciciosArquitectura.Ejemplos;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -7,41 +8,76 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Locale;
 
-import Bloques2ArquitecturaCompleta.EjemploGuiado.RepositorioException;
-import Bloques2ArquitecturaCompleta.EjerciciosArquitectura.Ejercicio1.IRepositorioPaises;
-import Bloques2ArquitecturaCompleta.EjerciciosArquitectura.Ejercicio1.Pais;
-
 public class ServicioEstudiantes_JsontoCSV {
 
-    private final IRepositorioPaises repoJson; // Su repositorio lee JSON
+	private final IRepositorioEstudiantes repoJson; // Su repositorio lee JSON
 
-    public ServicioEstudiantes_JsontoCSV(IRepositorioPaises repoJson) {
-        this.repoJson = repoJson;
-    }
+	public ServicioEstudiantes_JsontoCSV(IRepositorioEstudiantes repoJson) {
+		this.repoJson = repoJson;
+	}
 
-    // MÉTODO DE CONVERSIÓN: JSON -> CSV
-    public boolean exportarACSV(String rutaCsvSalida) throws Bloques2ArquitecturaCompleta.EjerciciosArquitectura.Ejercicio1.RepositorioException {
-        // PASO 1: Obtener la lista de objetos Java desde el Repositorio JSON
-		List<Pais> lista = repoJson.findAll();
+	// Log / reportes internos
+	private void datoNoValido(String msg) {
+		System.err.println("[ERROR SERVICIO - DATO NO VÁLIDO]: " + msg);
+	}
 
-		// PASO 2: Escribir la lista en un fichero CSV con PrintWriter
-		try (PrintWriter out = new PrintWriter(new FileWriter(rutaCsvSalida, StandardCharsets.UTF_8))) {
-		    
-		    // A. Escribir la cabecera CSV
-		    out.println("ID,NOMBRE,NOTA");
+	private void errorPersistencia(RepositorioException e) {
+		System.err.println("[ERROR SERVICIO - PERSISTENCIA]: " + e.getMessage());
+	}
 
-		    // B. Recorrer los objetos e imprimir cada fila separada por comas
-		    for (Pais e : lista) {
-		        out.printf(Locale.ENGLISH, "%d,%s,%.2f%n", 
-		                e.getIdiomas(), 
-		                e.getNombre(), 
-		                e.getNombre());
-		    }
-		} catch (IOException e) {
-		    System.err.println("Error I/O al escribir el CSV: " + e.getMessage());
-		    return false;
+	// MÉTODO DE CONVERSIÓN: JSON -> CSV
+	// El servicio no propaga excepciones: informa y devuelve false
+	public boolean exportarACSV(String rutaCsvSalida) {
+
+		if (rutaCsvSalida == null || rutaCsvSalida.trim().isEmpty()) {
+			datoNoValido("La ruta del CSV de salida no puede estar vacía.");
+			return false;
 		}
 
-		return true; // Exportación correcta
-    }
+		try {
+			// PASO 1: Obtener la lista de objetos Java desde el Repositorio JSON
+			List<Estudiante> lista = repoJson.findAll();
+
+			// PASO 2: Crear la carpeta destino si no existe
+			File salida = new File(rutaCsvSalida);
+			File carpetaPadre = salida.getParentFile();
+			if (carpetaPadre != null && !carpetaPadre.exists()) {
+				carpetaPadre.mkdir();
+			}
+
+			// PASO 3: Escribir la lista en un fichero CSV con PrintWriter
+			try (PrintWriter out = new PrintWriter(new FileWriter(salida, StandardCharsets.UTF_8))) {
+
+				// A. Cabecera CSV (la misma que lee RepositorioEstudiantesCsv)
+				out.println("Nombre,Curso,Notas");
+
+				// B. Una fila por estudiante; las notas se unen separadas por espacios
+				for (Estudiante e : lista) {
+					StringBuilder notas = new StringBuilder();
+					for (Double n : e.getNotas()) {
+						if (notas.length() > 0) {
+							notas.append(" ");
+						}
+						notas.append(String.format(Locale.ENGLISH, "%.2f", n));
+					}
+
+					out.printf(Locale.ENGLISH, "%s,%s,%s%n", e.getNombre(), e.getCurso(), notas);
+				}
+
+				if (out.checkError()) {
+					datoNoValido("Error al volcar los datos en el CSV.");
+					return false;
+				}
+			} catch (IOException e) {
+				datoNoValido("Error I/O al escribir el CSV: " + e.getMessage());
+				return false;
+			}
+
+			return true; // Exportación correcta
+
+		} catch (RepositorioException e) {
+			errorPersistencia(e);
+			return false;
+		}
+	}
 }
