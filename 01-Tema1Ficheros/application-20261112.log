@@ -1,0 +1,19 @@
+2026-11-12 08:36:23.761 [main] DEBUG EjemploFicheros_00.EjemploXML.Libro - El Quijote
+2026-11-12 08:36:39.570 [main] DEBUG EjemploFicheros_00.EjemploXML.Libro - El Quijote
+2026-11-12 08:40:36.383 [main] DEBUG EjemploFicheros_00.EjemploXML.Libro - El Quijote
+2026-11-12 08:53:00.914 [main] INFO  EjemploFicheros_00.EjemploXML.Libro - [#document: null]
+2026-11-12 08:54:06.500 [main] INFO  EjemploFicheros_00.EjemploXML.Libro - [#document: null]
+2026-11-12 08:58:44.105 [main] INFO  EjemploFicheros_00.EjemploXML.Libro - EjemploFicheros_00.EjemploXML.Libro@1eb5174b
+2026-11-12 08:58:55.112 [main] INFO  EjemploFicheros_00.EjemploXML.Libro - El Quijote
+2026-11-12 08:59:41.300 [main] INFO  EjemploFicheros_00.EjemploXML.Libro - Titulo: El QuijoteAutor: El Quijote
+2026-11-12 08:59:51.133 [main] INFO  EjemploFicheros_00.EjemploXML.Libro - Titulo: El QuijoteAutor: El Quijote
+2026-11-12 09:01:14.841 [main] INFO  EjemploFicheros_00.EjemploXML.Libro - Titulo: El Quijote Autor: Cervantes
+2026-11-12 09:36:39.764 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro: EjemploFicheros_00.EjemploXML.Libro@10959ece
+2026-11-12 09:37:11.096 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro: null
+2026-11-12 09:38:07.531 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro [id=null, categoria=null, titulo=, autor=null]
+2026-11-12 09:38:23.624 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro: null
+2026-11-12 09:39:09.865 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro [id=null, categoria=null, titulo=, autor=null]
+2026-11-12 09:39:57.615 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro [id=null, categoria=null, titulo=novela, autor=null]
+2026-11-12 09:40:39.557 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro [id=null, categoria=null, titulo=novela, autor=null]
+2026-11-12 09:41:21.170 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro [id=null, categoria=null, titulo=novela, autor=null]
+2026-11-12 09:42:26.535 [main] INFO  EjemploFicheros_00.EjemploXML.LeerLibroXML - Libro [id=1, categoria=novela, titulo=El Quijote, autor=Cervantes]

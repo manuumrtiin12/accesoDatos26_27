@@ -5,9 +5,25 @@
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   	<dependency>
-  		<groupId>Tema1Ficheros</groupId>
-  		<artifactId>1</artifactId>
+  		<groupId>Martin_Manuel_2026-11-09</groupId>
+  		<artifactId>Martin_Manuel_2026-11-09</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.13.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.13.0</version>
+		</dependency>
+		<dependency>
+        	<groupId>com.google.code.gson</groupId>
+        	<artifactId>gson</artifactId>
+        	<version>2.10.1</version>
+        </dependency>
   </dependencies>
 </project>

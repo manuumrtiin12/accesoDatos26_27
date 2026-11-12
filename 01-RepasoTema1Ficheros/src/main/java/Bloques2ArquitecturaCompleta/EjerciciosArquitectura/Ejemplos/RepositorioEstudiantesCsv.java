@@ -1,6 +1,7 @@
 package Bloques2ArquitecturaCompleta.EjerciciosArquitectura.Ejemplos;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -11,15 +12,16 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
+
 public class RepositorioEstudiantesCsv implements IRepositorioEstudiantes {
 
-	private static final String SEPARADOR_CSV = ",";
-	private final File fichero;
-	private List<Estudiante> estudiantesCache; // Memoria interna
+	private String SEPARADOR_CSV = ",";
+	private File fichero;
+	private List<Estudiante> estudiantesCache; 
 
 	public RepositorioEstudiantesCsv(String rutaFichero) {
 		this.fichero = new File(rutaFichero);
-		this.estudiantesCache = null; // Carga perezosa inicial
+		this.estudiantesCache = null; 
 	}
 
 	private void cargarSiHaceFalta() throws RepositorioException {
@@ -44,12 +46,10 @@ public class RepositorioEstudiantesCsv implements IRepositorioEstudiantes {
 			sc = new Scanner(fr);
 			sc.useLocale(Locale.ENGLISH);
 
-			// 1. Saltar la cabecera (Nombre,Curso,Notas)
 			if (sc.hasNextLine()) {
 				sc.nextLine();
 			}
 
-			// 2. Procesar fila a fila
 			int numLinea = 1;
 			while (sc.hasNextLine()) {
 				numLinea++;
@@ -59,7 +59,6 @@ public class RepositorioEstudiantesCsv implements IRepositorioEstudiantes {
 				try {
 					lista.add(parsearLineaCSV(linea));
 				} catch (IllegalArgumentException e) {
-					// También captura NumberFormatException (nota no numérica)
 					System.err.println("[AVISO REPOSITORIO] Línea " + numLinea + " descartada: " + e.getMessage());
 				}
 			}
@@ -73,9 +72,8 @@ public class RepositorioEstudiantesCsv implements IRepositorioEstudiantes {
 		return lista;
 	}
 
-	// Columnas: 0 Nombre, 1 Curso, 2 Notas (separadas por espacios)
 	private Estudiante parsearLineaCSV(String linea) {
-		String[] campos = linea.split(SEPARADOR_CSV, -1); // -1 conserva columnas vacías al final
+		String[] campos = linea.split(SEPARADOR_CSV, -1); 
 		if (campos.length < 3) {
 			throw new IllegalArgumentException("La línea no contiene las 3 columnas requeridas.");
 		}
@@ -115,7 +113,7 @@ public class RepositorioEstudiantesCsv implements IRepositorioEstudiantes {
 					if (notas.length() > 0) {
 						notas.append(" ");
 					}
-					notas.append(n); // Double.toString usa siempre el punto decimal
+					notas.append(n); 
 				}
 				out.printf(Locale.ENGLISH, "%s,%s,%s%n", e.getNombre(), e.getCurso(), notas);
 			}
@@ -166,17 +164,16 @@ public class RepositorioEstudiantesCsv implements IRepositorioEstudiantes {
 		for (int i = 0; i < copia.size(); i++) {
 			if (copia.get(i).getNombre().equalsIgnoreCase(estudiante.getNombre())) {
 				pos = i;
-				break;
+				
 			}
 		}
 
 		if (pos == -1) {
-			copia.add(estudiante); // Alta
+			copia.add(estudiante); 
 		} else {
-			copia.set(pos, estudiante); // Modificación
+			copia.set(pos, estudiante); 
 		}
 
-		// 1º fichero, 2º memoria
 		escribirFichero(copia);
 		this.estudiantesCache = copia;
 	}
@@ -197,4 +194,6 @@ public class RepositorioEstudiantesCsv implements IRepositorioEstudiantes {
 		}
 		return eliminado;
 	}
+	
+	
 }
