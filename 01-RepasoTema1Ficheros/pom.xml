@@ -3,6 +3,7 @@
   <groupId>RepasoUD1</groupId>
   <artifactId>RepasoUD1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<<<<<<< HEAD
   <dependencies>
   	<dependency>
   		<groupId>Martin_Manuel_2026-11-09</groupId>
@@ -26,4 +27,26 @@
         	<version>2.10.1</version>
         </dependency>
   </dependencies>
+=======
+  
+    	<dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.13.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.13.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+
+    </dependencies>
+>>>>>>> 534e7d2 (Repaso Previo al Examen - Lugar: Casa - Fecha: 16-11-2026)
 </project>

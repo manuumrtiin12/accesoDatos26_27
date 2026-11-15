@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "titulo": "Zelda: Tears of the Kingdom",
+    "precio": 59.95,
+    "anioLanzamiento": 2023,
+    "plataforma": "SWITCH",
+    "genero": "AVENTURA",
+    "multijugador": false,
+    "disponible": true,
+    "enOferta": false
+  },
+  {
+    "id": 2,
+    "titulo": "EA Sports FC 25",
+    "precio": 69.99,
+    "anioLanzamiento": 2024,
+    "plataforma": "PS5",
+    "genero": "DEPORTES",
+    "multijugador": true,
+    "disponible": true,
+    "enOferta": true
+  },
+  {
+    "id": 3,
+    "titulo": "Hollow Knight",
+    "precio": 14.99,
+    "anioLanzamiento": 2017,
+    "plataforma": "PC",
+    "genero": "PLATAFORMAS",
+    "multijugador": false,
+    "disponible": false,
+    "enOferta": false
+  }
+]
