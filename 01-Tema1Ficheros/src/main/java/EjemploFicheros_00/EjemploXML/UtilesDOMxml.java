@@ -21,15 +21,13 @@ import Boletin1Ficheros_01.Ejercicio10;
 public class UtilesDOMxml {
 	
     private static final Logger logger = LogManager.getLogger(UtilesDOMxml.class);
-
-    
     private static final String RUTA_RESOURCES = "src\\main\\resources\\EjemploXMLlibro\\";
 
 
 	public Document getDocumentFromXML(String nombreFichero) {
 		
 		Document doc = null;
-		DocumentBuilderFactory factory =   DocumentBuilderFactory.newInstance();
+		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder;
         
         try {
