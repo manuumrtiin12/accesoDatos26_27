@@ -14,7 +14,7 @@ public class GestionaPeliculas {
 		
 		Document raiz = util.getDocumentFromXML("peliculas.xml");
 		
-		logger.info(util.leerPeliculaDesdeXML(raiz));
+		logger.info(util.leerPeliculasDesdeXML(raiz));
 		
 	
 	}

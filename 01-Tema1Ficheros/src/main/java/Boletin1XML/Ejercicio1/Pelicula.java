@@ -1,5 +1,7 @@
 package Boletin1XML.Ejercicio1;
 
+import java.util.List;
+
 public class Pelicula {
 	
 	private String Titulo;
@@ -10,7 +12,7 @@ public class Pelicula {
 	private String Director;
 	
 	
-	public Pelicula() {
+	public Pelicula(String titulo2, String duracion2, String genero2, String sinopsis2, List<Actor> actores, String fecha2, String director2) {
 	}
 
 	

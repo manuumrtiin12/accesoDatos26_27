@@ -20,78 +20,141 @@ import EjemploFicheros_00.EjemploXML.UtilesDOMxml;
 
 public class UtilesDOMPelicula {
 	
-	private static final Logger logger = LogManager.getLogger(UtilesDOMPelicula.class);
-    private static final String RUTA_RESOURCES = "src\\main\\resources\\";
-
+	private static final String RUTA_RESOURCES = "src/main/resources/";
 
 	public Document getDocumentFromXML(String nombreFichero) {
-		
+
 		Document doc = null;
-		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+
         DocumentBuilder builder;
-        
+
         try {
+
 			builder = factory.newDocumentBuilder();
-			doc = builder.parse(new File(RUTA_RESOURCES + nombreFichero));
-			
+
+			try {
+
+				doc = builder.parse(new File(RUTA_RESOURCES + nombreFichero));
+
+			} catch (SAXException e) {
+
+				e.printStackTrace();
+
+			} catch (IOException e) {
+
+				e.printStackTrace();
+
+			}
+
 		} catch (ParserConfigurationException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
-			
-		}catch (SAXException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			
+
 		}
 
-		return doc;
-		
+        return doc;
+
 	}
+
 	
-	public List<Pelicula> leerPeliculaDesdeXML(Document raiz) {
-		
-		NodeList listaNodos = raiz.getElementsByTagName("pelicula");
-	    List<Pelicula> libros = new ArrayList<Pelicula>();
-	    
+
+	public Pelicula fromElement2Pelicula(Element raiz) {
+
+		Element tituloElemento = (Element) raiz.getElementsByTagName("Titulo").item(0);
+
+		Element duracionElemento = (Element) raiz.getElementsByTagName("Duracion").item(0);
+
+		Element generoElemento = (Element) raiz.getElementsByTagName("Genero").item(0);
+
+		Element sinopsisElemento = (Element) raiz.getElementsByTagName("Sinopsis").item(0);
+
+		String sinopsis = "";
+
+		Element actoresElemento = (Element) raiz.getElementsByTagName("Actores").item(0);
+
+		Element añoElemento = (Element) raiz.getElementsByTagName("Fecha").item(0);
+
+		Element directorElemento = (Element) raiz.getElementsByTagName("Director").item(0);
+
+		String titulo = tituloElemento.getTextContent();
+
+		String duracion = duracionElemento.getTextContent();
+
+		String genero = generoElemento.getTextContent();
+
+		if (sinopsisElemento != null) {
+
+			sinopsis = sinopsisElemento.getTextContent();
+
+		} 
+
+		List<Actor> actores = fromElement2Actor(actoresElemento);
+
+		String fecha = añoElemento.getTextContent();
+
+		String director = directorElemento.getTextContent();
+
+		Pelicula pelicula = new Pelicula(titulo, duracion, genero, sinopsis, actores, fecha, director);
+
+		return pelicula;
+
+	}
+
+	
+
+	public List<Pelicula> leerPeliculasDesdeXML(Document raiz) {
+
+		// 1. Obtener todos los elementos <libro>
+
+	    NodeList listaNodos = raiz.getElementsByTagName("Pelicula");
+
+	    // 2. Crear la colección de libros
+
+	    List<Pelicula> peliculas = new ArrayList<>();
+
+	    // 3. Recorrer los elementos <libro>
+
 	    for (int i = 0; i < listaNodos.getLength(); i++) {
-	    	
-	    	Element elementoPelicula = (Element) listaNodos.item(i);
-	    	
-	    	Pelicula pel = fromElement2Pelicula(elementoPelicula);
-	    	
-	    	libros.add(pel);
+
+	        Element elementoLibro = (Element) listaNodos.item(i);
+
+	        // 4. Convertir el elemento en un objeto Libro
+
+	        Pelicula pelicula = fromElement2Pelicula(elementoLibro);
+
+	        // 5. Añadir el libro a la colección
+
+	        peliculas.add(pelicula);
+
 	    }
 
-		return libros; 
-	
+	    return peliculas;
+
 	}
+
 	
-	public Pelicula fromElement2Pelicula(Element elemento) {
-		
-		Pelicula pel = new Pelicula();
-		
-		String Titulo = elemento.getElementsByTagName("Titulo").item(0).getTextContent();
-		int Duracion = Integer.parseInt(elemento.getElementsByTagName("Duracion").item(0).getTextContent());
-		String Genero = elemento.getElementsByTagName("Genero").item(0).getTextContent();
-		String sinopsis = elemento.getElementsByTagName("sinopsis").item(0).getTextContent();
-		String Fecha = elemento.getElementsByTagName("Fecha").item(0).getTextContent();
-		String Director = elemento.getElementsByTagName("Director").item(0).getTextContent();
-		
-		pel.setDirector(Director);
-		pel.setDuracion(Duracion);
-		pel.setGenero(Genero);
-		pel.setFecha(sinopsis);
-		pel.setFecha(Fecha);
-		pel.setDirector(Director);
-		
-		return pel;
-		
+
+	public List<Actor> fromElement2Actor(Element raiz) {
+
+		NodeList listaNodos = raiz.getElementsByTagName("Actor");
+
+		List<Actor> actores = new ArrayList<Actor>();
+
+		for (int i = 0; i < listaNodos.getLength(); i++) {
+
+			Element actorElemento = (Element) listaNodos.item(i);
+
+			String nombre = actorElemento.getTextContent();
+
+			Actor actor = new Actor(nombre);
+
+			actores.add(actor);
+
+		}
+
+		return actores;
+
 	}
-	
-	
-	
 }

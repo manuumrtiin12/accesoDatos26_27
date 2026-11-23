@@ -1,0 +1,6 @@
+2026-11-23 08:33:17.436 [main] INFO  Boletin1XML.Ejercicio1.GestionaPeliculas - []
+2026-11-23 08:34:05.506 [main] INFO  Boletin1XML.Ejercicio1.GestionaPeliculas - []
+2026-11-23 08:34:57.079 [main] INFO  Boletin1XML.Ejercicio1.GestionaPeliculas - []
+2026-11-23 08:37:23.328 [main] INFO  Boletin1XML.Ejercicio1.GestionaPeliculas - []
+2026-11-23 08:39:55.499 [main] INFO  Boletin1XML.Ejercicio1.GestionaPeliculas - []
+2026-11-23 08:48:59.195 [main] INFO  Boletin1XML.Ejercicio1.GestionaPeliculas - [Pelicula [titulo=null, duracion=0, genero=null, sinopsis=null, fecha=null, director=null], Pelicula [titulo=null, duracion=0, genero=null, sinopsis=null, fecha=null, director=null], Pelicula [titulo=null, duracion=0, genero=null, sinopsis=null, fecha=null, director=null], Pelicula [titulo=null, duracion=0, genero=null, sinopsis=null, fecha=null, director=null], Pelicula [titulo=null, duracion=0, genero=null, sinopsis=null, fecha=null, director=null], Pelicula [titulo=null, duracion=0, genero=null, sinopsis=null, fecha=null, director=null], Pelicula [titulo=null, duracion=0, genero=null, sinopsis=null, fecha=null, director=null]]
